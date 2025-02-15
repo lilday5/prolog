@@ -41,15 +41,22 @@
   (car (cadr (cadr (cadr '((1 (2 (3 (4 5)))) (6 7))))))
 
   Lista: (((a b) c) ((d e) f) ((g h) i)) → Extraer g
+  (car (car (caddr '(((a b) c) ((d e) f) ((g h) i)))))
 
   Lista: (((x y) (z w)) ((p q) (r s))) → Extraer r
+  (car (cadr (cadr '(((x y) (z w)) ((p q) (r s))))))
 
   Lista: ((1 (2 (3 (4 (5 6))))) (7 8)) → Extraer 5
+  (car (cadr (cadr (cadr (cadr '((1 (2 (3 (4 (5 6))))) (7 8)))))))
 
   Lista: ((a (b (c (d e)))) (f g)) → Extraer d
+  (car (cadr (cadr (cadr '((a (b (c (d e)))) (f g))))))
 
   Lista: (((1 2) (3 4)) ((5 6) (7 8))) → Extraer 7
+  (car (cadr (cadr '(((1 2) (3 4)) ((5 6) (7 8))))))
 
   Lista: ((x (y (z (w v))))) → Extraer w
+  (car (cadr (cadr (cadr '((x (y (z (w v)))))))))
 
   Lista: (((a b c) (d e f)) ((g h i) (j k l))) → Extraer j
+  (car (cadr (cadr '(((a b c) (d e f)) ((g h i) (j k l))))))
