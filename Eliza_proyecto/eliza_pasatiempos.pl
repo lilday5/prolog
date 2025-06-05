@@ -37,3 +37,33 @@ pasatiempo(['quiero', 'inicializar', 'un', 'repositorio', 'en', 'git']) :-
     writeln('git add .'),
     writeln('git commit -m "Initial commit"'),
     writeln('git push origin main').
+
+pasatiempo(['quiero', 'inicializar', 'un', 'repo', 'en', 'git']) :-
+    writeln('Eliza: Puedes hacerlo con los siguientes comandos:'),
+    writeln('git init'),
+    writeln('git remote add origin git@gitlab.com:lilday5/prolog.git'),
+    writeln('git add .'),
+    writeln('git commit -m "Initial commit"'),
+    writeln('git push origin main').
+
+pasatiempo(['quiero', 'hacer', 'una', 'bomba']) :-
+    writeln('Eliza: Esas busquedas no se pueden hacer, pueden ser ilegales').
+
+pasatiempo(['se', 'puede', 'comprar', 'uranio']) :-
+    writeln('Eliza:  :( '),
+    writeln('Eliza: Esas busquedas no se pueden hacer, pueden ser ilegales').
+
+
+pasatiempo(['quiero', 'pedir', 'comida', 'por', 'app']) :-
+    writeln('Eliza: Existen bastantes aplicaciones para celular como: '),
+    writeln('Eliza: Uber Eats '),
+    writeln('Eliza: Glovo '),
+    writeln('Eliza: Rappi '),
+    writeln('Eliza: PedidosYa '),
+    writeln('Eliza: etc. ').
+
+pasatiempo(['para', 'que', 'so', 'estan', 'disponibles']) :-
+    writeln('Eliza: Para android y iOS ').
+
+pasatiempo(['para', 'que', 'sistemas', 'operativos', 'estan', 'disponibles']) :-
+    writeln('Eliza: Para android y iOS ').

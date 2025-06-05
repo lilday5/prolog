@@ -1,4 +1,5 @@
 % ========== eliza_arbol.pl ==========
+
 :- module(eliza_arbol, [arbol/1]).
 
 % Predicados monarios (hombres y mujeres)

@@ -10,3 +10,14 @@ Eliza: Podrías tener una infección. ¿Tienes escalofríos también?
 Tú: me gusta leer
 Eliza: ¡Qué bien! A mí también me gusta leer.
 Tú: adios
+
+
+quien es el padre de carlos
+quien es la madre de luis
+me siento mal
+fiebre
+no
+erupciones
+tengo erupciones en la piel
+si
+estan en la cara
