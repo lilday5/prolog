@@ -31,6 +31,33 @@ ya que es demasiado peso. Si la ropa pesa 22 ó más libras, el nivel será
 de máximo; si pesa 15 ó más nivel será de alto; si pesa 8 ó más será un
 nivel medio o de lo contrario el nivel será minimo
 
+Inicio
+  Escribir "Ingrese el peso en libras de la ropa:"
+  Leer peso
+
+  Si peso > 30 Entonces
+    Escribir "⚠ Error: La lavadora no puede funcionar con más de 30 libras."
+  Sino
+    Si peso >= 22 Entonces
+      nivel ← "Máximo"
+      litros ← 50
+    Sino Si peso >= 15 Entonces
+      nivel ← "Alto"
+      litros ← 40
+    Sino Si peso >= 8 Entonces
+      nivel ← "Medio"
+      litros ← 30
+    Sino
+      nivel ← "Mínimo"
+      litros ← 20
+    FinSi
+
+    Escribir "Nivel de agua:", nivel
+    Escribir "Litros necesarios:", litros
+  FinSi
+Fin
+
+
 3.- Martha va a realizar su fiesta de quince años. Por lo cual ha
 invitado a una gran cantidad de personas. Pero también ha decidido
 algunas reglas: Que todas las personas con edades mayores a los quince
@@ -39,3 +66,16 @@ años cumplidos entra totalmente gratis pero los de menos de quince años
 no pueden entrar a la fiesta. Hacer un algoritmo donde se tome la edad
 de una persona y que requisito de los anteriores le toca cumplir si
 quiere entrar.
+
+Inicio
+  Escribir "Ingrese la edad de la persona:"
+  Leer edad
+
+  Si edad > 15 Entonces
+    Escribir "Solo puede entrar si trae regalo "
+  Sino Si edad = 15 Entonces
+    Escribir "Puede entrar totalmente gratis "
+  Sino
+    Escribir "No puede entrar a la fiesta "
+  FinSi
+Fin
